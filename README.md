@@ -83,7 +83,7 @@ Create EC2 Instance t2.micro (Optional)
 
 Install Kubectl:
 ```
-curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.24.11/2023-03-17/bin/linux/amd64/kubectl
+curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.28.2/2023-10-17/bin/linux/amd64/kubectl
 chmod +x ./kubectl
 sudo cp ./kubectl /usr/local/bin
 export PATH=/usr/local/bin:$PATH
